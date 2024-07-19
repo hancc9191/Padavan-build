@@ -65,7 +65,7 @@ jobs:
         ######################################################################
         if [ $KERNEL = "4.4" ] ; then
         echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=y" >> .config #DDNSTO
-        echo "CONFIG_FIRMWARE_INCLUDE_MSD_LITE=y" >> .config #msd
+        echo "CONFIG_FIRMWARE_INCLUDE_SOCAT=y" >> .config #msd
 
        
 
